@@ -1,0 +1,145 @@
+* {
+    background: lightblue;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 68px;
+    padding: 20px;
+}
+
+.navegador {
+    padding: 0.5em 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.main {
+    width: 90%;
+    height: calc(90vh - 168px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 20px;
+}
+
+.section {
+    width: 70%;
+    height: 100%;
+    align-items: center;
+}
+
+.mensaje-origen {
+    font-weight: 500;
+    font-size: 1.4rem;
+    display: block;
+    border-radius: .4rem;
+}
+
+.informacion {
+    display: inline-block;
+    margin: 10px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btnEncriptar {
+    background: #0A3871;
+    color: #FFFFFF;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    width: 250px;
+    padding: 10px;
+}
+
+.btnDesencriptar {
+    background: #FFFFFF;
+    color: #0A3871;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    width: 250px;
+    padding: 10px;
+}
+
+.btnEncriptar:hover {
+    background-color: rgb(1, 33, 80);
+}
+
+.btnDesencriptar:hover {
+    background-color: rgb(1, 33, 80);
+}
+
+.aside {
+
+    background: #FFFFFF;
+    border-color: #000000;
+    border-style: solid;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    text-align: center;
+    width: 20%;
+    height: 80%;
+
+}
+
+.btnCopiar {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 8px;
+
+    position: absolute;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    width: 250px;
+    left: 1070px;
+    top: 590px;
+    justify-content: center;
+    border: 1px solid #0A3871;
+}
+.btnCopiar:hover {
+    background-color: rgb(1, 33, 80);
+}
+
+.imagen {
+    width: 80%;
+    background: #FFFFFF;
+}
+
+.caja-textos {
+    background: #FFFFFF;    
+}
+
+.caja-textos span.h3 {
+    background: #FFFFFF;
+    display: block;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.caja-textos span.h4 {
+    background: #FFFFFF;
+    display: block;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+
+.copyright {
+    color: #000000;
+    font-size: 0.9em;
+    margin: 20px 40px;
+    text-align: right;
+}

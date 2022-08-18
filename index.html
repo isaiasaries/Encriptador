@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="https://www.aluracursos.com/"><img src="img/Logo.png" alt="Logo Isaias"></a>
+    </header>
+    <nav class="navegador">
+        <h2>Encriptador - Desencriptador de Textos</h2>
+    </nav>
+    <main class="main">
+        <section class="section">
+
+            <textarea class="mensaje-origen" name="mensaje-origen" id="mensaje-origen" cols="60" rows="15"
+                placeholder="Ingrese el texto aqui" required></textarea>
+
+            <span class="informacion">Solo letras minúsculas y sin acentos </span>
+            <div>
+                <button class="btnEncriptar" id="btnEncriptar">Encriptar</button>
+                <button class="btnDesencriptar" id="btnDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <aside class="aside">
+            <div class="caja-textos" id="imagen">
+            <!--<div class="caja-textos" style="display:none;">-->
+                <img src="img/Muñeco.png" alt="Logo Muneco" srcset="" class="imagen">
+                <span class="h3">Ningún mensaje fue encontrado</span>
+                <span class="h4">Ingresa el texto que deseas encriptar o desencriptar.</span>
+            </div>
+            <!--style="display:none; Permanecen ocultos al abrir la pagina-->
+            <div class="resultado-ver" style="display:none;" id="texto">
+                <!--<div class="resultado-ver">-->
+                <textarea class="text2" id="mensaje-desencriptado" cols="35" rows="25"></textarea>
+                <button class="btnCopiar" id="btnCopiar">Copiar</button>
+            </div>
+        </aside>
+    </main>
+    <footer class="footer">
+        <p class="copyright">&copy Copyright Isaias Lagunes Pérez - 2022</p>
+    </footer>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
